@@ -1,5 +1,11 @@
 # Word Game
 
+This is my submission for the Word game project assigned by Josh in the Joy of React course.
+It was quite challenging to complete and although, I had to look at some of the answers, the rest of
+the challenge that I completed myself taught on how to both structure and style React components properly.
+
+# Instructions Below
+
 ## Joy of React, Project I
 
 In this project, we'll recreate a popular online word game, Wordle:
@@ -167,7 +173,7 @@ Inside `/src/game-helpers.js`, you'll find a helper function, `checkGuess`. As p
 For example:
 
 ```js
-checkGuess('WHALE', 'LEARN');
+checkGuess("WHALE", "LEARN")
 /*
   Returns:
 
@@ -225,10 +231,7 @@ The user wins the game when their guessed word is identical to the `answer`. The
 
 ```html
 <div class="happy banner">
-  <p>
-    <strong>Congratulations!</strong> Got it in
-    <strong>3 guesses</strong>.
-  </p>
+  <p><strong>Congratulations!</strong> Got it in <strong>3 guesses</strong>.</p>
 </div>
 ```
 
