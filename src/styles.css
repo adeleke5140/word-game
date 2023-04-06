@@ -230,3 +230,20 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+button {
+  border-radius: 8px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.happy button {
+  background: white;
+  color: green;
+}
+
+.sad button {
+  background: white;
+  color: red;
+}
